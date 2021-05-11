@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     --text-body: #969cb3;
 
     --background: #f0f2f5;
-    --shape: #ffffff
+    --shape: #ffffff;
   }
 
   * {
@@ -31,9 +31,18 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  body, input, text-area, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
+  }
+
   body {
     background: var(---background);
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
   }
 
   button {
