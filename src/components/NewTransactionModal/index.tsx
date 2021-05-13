@@ -30,7 +30,7 @@ export function NewTransactionModal({
       type
     }
 
-    api.post('/api/transactions', data)
+    api.post('transactions', data)
   }
 
   return (
