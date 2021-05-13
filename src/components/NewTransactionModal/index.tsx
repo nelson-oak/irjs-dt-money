@@ -38,8 +38,8 @@ export function NewTransactionModal({
 
     setTitle('')
     setAmount(0)
-    setType('')
-    setCategory('deposit')
+    setType('deposit')
+    setCategory('')
     
     onRequestClose()
   }
